@@ -5,9 +5,9 @@ if ((isNaN(score)) || score < 0 || score >100){
 } else if (score >= 80){
     console.log("Grade is A");
 } else if (score >= 70){
-    console.log("Grading is B");
+    console.log("Grade is B");
 } else if (score >=60){
-    console.log("Grading is C");
+    console.log("Grade is C");
 } else if (score >=50){
-    console.log("Grading is D");
-} else console.log("Grading is F");
+    console.log("Grade is D");
+} else console.log("Grade is F");
