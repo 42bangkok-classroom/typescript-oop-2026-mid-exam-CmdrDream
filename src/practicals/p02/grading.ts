@@ -11,3 +11,5 @@ if ((isNaN(score)) || score < 0 || score >100){
 } else if (score >=50){
     console.log("Grade is D");
 } else console.log("Grade is F");
+
+export{};

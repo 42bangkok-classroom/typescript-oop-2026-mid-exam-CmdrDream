@@ -1,10 +1,17 @@
 const N = Number(process.argv[2]);
 
-for(let i = 0; i < N; i++){
-  let str = "";
-  for (let j = 0; j < N; j++) {
-    str += String(i+1);
-  }
-  console.log(str);
+if(isNaN(N), N <=0)
 
+for (let i: number = 1; i <= N; i++){
+  let row: string '';
 }
+for (let j: number = 1; j <= N-1; j--){
+  let row += '';
+}
+for (let k: number = 1; k <= i; k--){
+  let row += k;
+}
+
+console.log(row);
+
+export{};

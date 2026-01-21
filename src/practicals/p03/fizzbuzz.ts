@@ -9,3 +9,5 @@ if (isNaN(x) || x < 0){
 } else if (x % 5 === 0){
     console.log("Buzz");
 } else console.log(x);
+
+export{};
